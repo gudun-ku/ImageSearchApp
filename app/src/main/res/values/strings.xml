@@ -6,4 +6,6 @@
     <string name="message_no_results">No results found</string>
     <string name="text_error_load_result">Results could not be loaded</string>
     <string name="title_menu_search">Search</string>
+    <string name="label_gallery_fragment">Gallery</string>
+    <string name="label_details_fragment">Photo</string>
 </resources>
