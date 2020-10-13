@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Image Search App</string>
+    <string name="text_default_username">username</string>
+    <string name="label_button_retry">Retry</string>
+    <string name="message_not_loaded">Results could not be loaded</string>
+    <string name="message_no_results">No results found</string>
 </resources>
