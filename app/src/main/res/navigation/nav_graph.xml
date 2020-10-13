@@ -8,5 +8,21 @@
         android:id="@+id/galleryFragment"
         android:name="com.codinginflow.imagesearchapp.ui.gallery.GalleryFragment"
         android:label="fragment_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_galleryFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.codinginflow.imagesearchapp.ui.details.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="photo"
+            app:argType="com.codinginflow.imagesearchapp.data.UnsplashPhoto" />
+        <action
+            android:id="@+id/action_detailsFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+    </fragment>
 </navigation>

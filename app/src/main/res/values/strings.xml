@@ -4,4 +4,6 @@
     <string name="label_button_retry">Retry</string>
     <string name="message_not_loaded">Results could not be loaded</string>
     <string name="message_no_results">No results found</string>
+    <string name="text_error_load_result">Results could not be loaded</string>
+    <string name="title_menu_search">Search</string>
 </resources>
