@@ -8,4 +8,6 @@
     <string name="title_menu_search">Search</string>
     <string name="label_gallery_fragment">Gallery</string>
     <string name="label_details_fragment">Photo</string>
+    <string name="image_type_string" translatable="false">image/jpeg</string>
+    <string name="send_to">Send image to</string>
 </resources>

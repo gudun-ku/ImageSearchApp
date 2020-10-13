@@ -72,6 +72,10 @@ dependencies {
 
     // Paging 3
     implementation "androidx.paging:paging-runtime:$pagingVersion"
+
+    // Runtime permissions
+    implementation 'com.github.hotchemi:permissionsdispatcher:4.1.0'
+    annotationProcessor 'com.github.hotchemi:permissionsdispatcher-processor:4.1.0'
 }
 
 kapt {
